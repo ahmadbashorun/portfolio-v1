@@ -6,20 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ahmad-Tijani Bashorun</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     
     <header>
         <section class="header">
             <div class="ahmad-logo">
-                <a href="">AHMAD-TIJANI BASHORUN</a>
+                <a href="index.html">AHMAD-TIJANI BASHORUN</a>
             </div>
 
             <div class="navigation-menu">
                 <ul class="nav-links">
-                    <li><a href=""> About </a></li>
-                    <li><a href=""> Work </a></li>
-                    <li><a href=""> Contact </a></li>
+                    <li><a href="#about"> About </a></li>
+                    <li><a href="#work"> Work </a></li>
+                    <li><a href="#contact"> Contact </a></li>
                 </ul>
             </div>
 
@@ -29,6 +30,34 @@
                 </div>
                 <div class="reach-out">
                     <a class="pri-btn small-cta" href="mailto:ahmadbashorun@gmail.com" target="_blank"> Reach out</a>
+                </div>
+            </div>
+
+            <div class="mobile-nav">
+                <a id="open-nav-icon"><img src="./Images/nav-icon.svg" alt="nav-icon" class="nav-icon"></a>
+
+                <div id="nav-menu" class="nav-menu-dropdown">
+                    <div id="close-nav-icon" class="close-nav-container"><i class="fa-solid fa-xmark close-nav"></i></div>
+
+                    <div class="nav-menu-content">
+                        <div class="mob-navigation-menu">
+                            <ul class="mob-nav-links">
+                                <li><a href="#about"> About </a></li>
+                                <li><a href="#work"> Work </a></li>
+                                <li><a href="#contact"> Contact </a></li>
+                            </ul>
+                        </div>
+    
+                        <div class="mob-nav-ctas">
+                            <div class="resume">
+                                <a class="sec-btn small-cta" href="" target="_blank"> Resume </a>
+                            </div>
+                            <div class="reach-out">
+                                <a class="pri-btn small-cta" href="mailto:ahmadbashorun@gmail.com" target="_blank"> Reach out</a>
+                            </div>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
         </section>
@@ -42,7 +71,7 @@
 
             <div class="text-cta-container">
                 <div class="hero-text-container">
-                    <h1 class="hero-text"> I’m Ahmad, a UI/UX Designer and a budding UX Engineer. </h1>
+                    <h1 class="hero-text"> I’m Ahmad, a Product Designer and a UI Engineer. </h1>
                 </div>
     
                 <div class="cta-container">
@@ -56,12 +85,19 @@
             </div>
 
             <div class="learn-more">
-                <img src="./Images/Learn More.svg" alt="Learn more animation">
+                <div class="learn-more-text">
+                    <p class="rotated-text">
+                        LEARN MORE . LEARN MORE . LEARN MORE
+                    </p>
+                </div>
+                <div class="arrow-down">
+                    <!-- <img src="./Images/arrow-downward.svg" alt="Learn more animation"> -->
+                </div>
             </div>
 
         </section>
-
-        <section class="about-container">
+        
+        <section id="about" class="about-container">
             
             <div class="about">
                 <div class="section-heading-container"> 
@@ -81,7 +117,7 @@
                     </div>
     
                     <div class="image-container">
-                        <img class="profile-image" src="./Images/profile.svg" alt="Ahmad's image">
+                        <img class="profile-image" src="./Images/ahmadd.svg" alt="Ahmad's image">
                     </div>
                 </div>
             </div>
@@ -122,15 +158,15 @@
                     <div class="css-logo">
                         <img src="./Images/CSS.svg" alt="CSS logo">
                     </div>
-                    <div class="notion-logo">
-                        <img src="./Images/notion.svg" alt="Notion logo">
+                    <div class="js-logo">
+                        <img src="./Images/Javascript-logo.svg" alt="Javascript logo">
                     </div>
                 </div>
             </div>
 
         </section>
 
-        <section class="my-work">
+        <section id="work" class="my-work">
                 <div class="section-heading-container"> 
                     <h1 class="section-heading">
                         MY WORK
@@ -146,6 +182,7 @@
                 </div>
 
                 <div class="case-study-container">
+                    <!-- Portfolio -->
                     <div class="case-study-item">
                         <div class="cover-container portfolio">
                             <div class="cover-image">
@@ -157,7 +194,7 @@
                             <div class="name-and-tags">
                                 <div class="case-name-container">
                                     <h3 class="case-name">
-                                        Portfolio V0.1: Exploration of a Neo-Brutalist direction for my personal portfolio. 
+                                        Portfolio V0.1: Exploration of a Neo-Brutalist direction for my portfolio website. 
                                     </h3>
                                 </div>
                                 <div class="tags">
@@ -167,6 +204,9 @@
                                     <div class="pink-tag">
                                         <p>HTML/CSS</p>
                                     </div>
+                                    <div class="orange-tag">
+                                        <p>Javascript</p>
+                                    </div>
                                     <div class="green-tag">
                                         <p>Portfolio</p>
                                     </div>
@@ -175,18 +215,19 @@
     
                             <div class="visit-cta">
                                 <a href="" class="visit-cta-link">
-                                    <p> View website  </p> 
-                                    <img src="./Images/Arrow icon.svg" class="arrow-icon"> 
-                                    <img src="./Images/Arrow icon hover.svg" alt="Arrow icon" class="arrow-icon icon-hover">
+                                    <p> You're here already😉 </p> 
+                                    <!-- <img src="./Images/Arrow icon.svg" class="arrow-icon"> 
+                                    <img src="./Images/Arrow icon hover.svg" alt="Arrow icon" class="arrow-icon icon-hover"> -->
                                 </a>
                             </div>
                         </div>
                     </div>
 
+                    <!-- Linkcut -->
                     <div class="case-study-item">
-                        <div class="cover-container suiscore">
+                        <div class="cover-container linkcut">
                             <div class="cover-image">
-                                <img src="./Images/suiscore.svg" alt="Suiscore Image">
+                                <img src="./Images/linkcut.svg" alt="Portfolio Image">
                             </div>
                         </div>
     
@@ -194,12 +235,56 @@
                             <div class="name-and-tags">
                                 <div class="case-name-container">
                                     <h3 class="case-name">
-                                        Suiscore: A Social media app for football fans around the world. 
+                                        Linkcut: A link shortener app to generate shortened long URLs and QR codes.
                                     </h3>
                                 </div>
                                 <div class="tags">
-                                    <div class="yellow-tag">
-                                        <p>Mobile app</p>
+                                    <div class="blue-tag">
+                                        <p>Web app</p>
+                                    </div>
+                                    <div class="pink-tag">
+                                        <p>HTML/Tailwind CSS</p>
+                                    </div>
+                                    <div class="orange-tag">
+                                        <p>Javascript</p>
+                                    </div>
+                                    <div class="green-tag">
+                                        <p>SaaS</p>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="visit-cta">
+                                <a href="https://linkcut.vercel.app/" class="visit-cta-link">
+                                    <p> Visit website </p> 
+                                    <img src="./Images/Arrow icon.svg" class="arrow-icon"> 
+                                    <img src="./Images/Arrow icon hover.svg" alt="Arrow icon" class="arrow-icon icon-hover">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Football Previews -->
+                    <div class="case-study-item">
+                        <div class="cover-container suiscore">
+                            <div class="cover-image">
+                                <img src="./Images/footballpreviews.svg" alt="Suiscore Image">
+                            </div>
+                        </div>
+    
+                        <div class="case-details">
+                            <div class="name-and-tags">
+                                <div class="case-name-container">
+                                    <h3 class="case-name">
+                                        Football Previews: A website for football fans to read previews of their favorite football matches. 
+                                    </h3>
+                                </div>
+                                <div class="tags">
+                                    <div class="blue-tag">
+                                        <p>Website</p>
+                                    </div>
+                                    <div class="pink-tag">
+                                        <p>HTML/ Tailwind CSS</p>
                                     </div>
                                     <div class="green-tag">
                                         <p>Sports</p>
@@ -208,8 +293,8 @@
                             </div>
     
                             <div class="visit-cta">
-                                <a href="">
-                                    <p> View case study  </p> 
+                                <a href="https://footballpreviews.co.uk/" class="visit-cta-link">
+                                    <p> View website</p> 
                                     <img src="./Images/Arrow icon.svg" class="arrow-icon">
                                     <img src="./Images/Arrow icon hover.svg" alt="Arrow icon" class="arrow-icon icon-hover">
                                 </a>
@@ -217,6 +302,7 @@
                         </div>
                     </div>
 
+                    <!-- pin app -->
                     <div class="case-study-item">
                         <div class="cover-container pin-app">
                             <div class="cover-image">
@@ -235,9 +321,9 @@
                                     <div class="yellow-tag">
                                         <p>Mobile app</p>
                                     </div>
-                                    <div class="blue-tag">
+                                    <!-- <div class="blue-tag">
                                         <p>Fashion</p>
-                                    </div>
+                                    </div> -->
                                     <div class="green-tag">
                                         <p>E-commerce</p>
                                     </div>
@@ -245,10 +331,48 @@
                             </div>
     
                             <div class="visit-cta">
-                                <a href="">
-                                    <p> View case study  </p> 
-                                    <img src="./Images/Arrow icon.svg" class="arrow-icon">
-                                    <img src="./Images/Arrow icon hover.svg" alt="Arrow icon" class="arrow-icon icon-hover">
+                                <a href="" class="visit-cta-link">
+                                    <p> Coming soon </p> 
+                                    <!-- <img src="./Images/Arrow icon.svg" class="arrow-icon">
+                                    <img src="./Images/Arrow icon hover.svg" alt="Arrow icon" class="arrow-icon icon-hover"> -->
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Smarg -->
+                    <div class="case-study-item">
+                        <div class="cover-container smarg">
+                            <div class="cover-image">
+                                <img src="./Images/Smarg.svg" alt="Pin app Image">
+                            </div>
+                        </div>
+    
+                        <div class="case-details">
+                            <div class="name-and-tags">
+                                <div class="case-name-container">
+                                    <h3 class="case-name">
+                                        Smarg: A banking app for African Creatives.
+                                    </h3>
+                                </div>
+                                <div class="tags">
+                                    <div class="yellow-tag">
+                                        <p>Mobile app</p>
+                                    </div>
+                                    <div class="blue-tag">
+                                        <p>Website</p>
+                                    </div>
+                                    <div class="green-tag">
+                                        <p>Fintech</p>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="visit-cta">
+                                <a href="" class="visit-cta-link">
+                                    <p> Coming soon </p> 
+                                    <!-- <img src="./Images/Arrow icon.svg" class="arrow-icon">
+                                    <img src="./Images/Arrow icon hover.svg" alt="Arrow icon" class="arrow-icon icon-hover"> -->
                                 </a>
                             </div>
                         </div>
@@ -264,7 +388,7 @@
     </main>
 
     <footer>
-        <section class="footer">
+        <section id="contact" class="footer">
             <div class="smiley-badge">
                 <img src="./Images/smiley badge.svg" alt="Smiley badge">
             </div>
@@ -329,5 +453,6 @@
         </section>
     </footer>
 
+    <script src="./index.js"></script>
 </body>
 </html> 
