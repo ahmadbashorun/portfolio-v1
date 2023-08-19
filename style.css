@@ -188,27 +188,27 @@ h1, h2, h3, h4, h5, h6{
         position: fixed;
         inset: 0;
         z-index: 50;
-        display: flex;
+        background-color: #FFFFF0;
+        padding: 4rem 1.25rem;
+        /* display: flex;
         flex-direction: column;
         align-items: center;
-        row-gap: 6rem;
-        padding: 4rem 2rem;
-        background-color: #FFFFF0;
-        display: none;
+        row-gap: 6rem; */
+        display: none; 
     }
 
-    .nav-menu-shown{
-        width: 100%;
+    .nav-menu-dropdown.nav-menu-shown{
+        /* width: 100%;
         height: 100vh;
         position: fixed;
         inset: 0;
         z-index: 50;
+        padding: 4rem 2rem;
+        background-color: #FFFFF0; */
         display: flex;
         flex-direction: column;
         align-items: center;
-        row-gap: 6rem;
-        padding: 4rem 2rem;
-        background-color: #FFFFF0;
+        row-gap: 6rem; 
     }
 
     .close-nav-container{
@@ -328,28 +328,27 @@ h1, h2, h3, h4, h5, h6{
         position: fixed;
         inset: 0;
         z-index: 50;
-        display: flex;
+        background-color: #FFFFF0;
+        padding: 4rem 1.25rem;
+        /* display: flex;
         flex-direction: column;
         align-items: center;
-        row-gap: 6rem;
-        padding: 4rem 1.25rem;
-        background-color: #FFFFF0;
-        visibility: hidden;
+        row-gap: 6rem; */
+        display: none; 
     }
 
-    .nav-menu-shown{
-        width: 100%;
+    .nav-menu-dropdown.nav-menu-shown{
+        /* width: 100%;
         height: 100vh;
         position: fixed;
         inset: 0;
         z-index: 50;
+        padding: 4rem 2rem;
+        background-color: #FFFFF0; */
         display: flex;
         flex-direction: column;
         align-items: center;
-        row-gap: 6rem;
-        padding: 4rem 2rem;
-        background-color: #FFFFF0;
-        visibility: visible;
+        row-gap: 6rem; 
     }
 
     .close-nav-container{
@@ -1383,6 +1382,7 @@ h1, h2, h3, h4, h5, h6{
     flex-direction: row;
     flex-wrap: wrap;
     column-gap: 0.75rem;
+    gap: 0.75rem;
     justify-content: left;
     align-items: center;
 }
@@ -1610,6 +1610,7 @@ h1, h2, h3, h4, h5, h6{
     display: flex;
     flex-direction: row;
     column-gap: 0.5rem;
+    gap: 0.5rem;
     justify-content: left;
     align-items: center;
     }
@@ -1758,6 +1759,7 @@ h1, h2, h3, h4, h5, h6{
     display: flex;
     flex-direction: row;
     column-gap: 0.5rem;
+    gap: 0.5rem;
     justify-content: left;
     align-items: center;
     }
